@@ -1,0 +1,62 @@
+{
+    "name": "blomstra/database-queue",
+    "description": "Adds Database queues to Flarum",
+    "keywords": [
+        "flarum",
+        "blomstra",
+        "queue",
+        "database"
+    ],
+    "license": "MIT",
+    "type": "flarum-extension",
+    "authors": [
+        {
+            "name": "Team Blomstra",
+            "email": "development@blomstra.net",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/blomstra/flarum-ext-database-queue/issues",
+        "source": "https://github.com/blomstra/flarum-ext-database-queue",
+        "forum": "https://discuss.flarum.org/d/28151"
+    },
+    "homepage": "https://blomstra.net",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Database Queue",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-pallet",
+                "backgroundColor": "#E3E7F1",
+                "color": "#FF9045"
+            }
+        },
+        "extiverse": {
+            "discuss": ""
+        },
+        "flarum-cli": {
+            "modules": {
+                "githubActions": true
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Blomstra\\DatabaseQueue\\": "src/"
+        }
+    },
+    "require-dev": {
+        "flarum/phpstan": "*"
+    },
+    "scripts": {
+        "analyse:phpstan": "phpstan analyse",
+        "clear-cache:phpstan": "phpstan clear-result-cache"
+    },
+    "scripts-descriptions": {
+        "analyse:phpstan": "Run static analysis"
+    }
+}
