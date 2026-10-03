@@ -2,13 +2,18 @@
 
 > **Read-only archive of released versions of blomstra/database-queue.** Not for installation: use [Packagist](https://packagist.org/packages/blomstra/database-queue) or the [upstream repository](https://github.com/blomstra/flarum-ext-database-queue).
 
-**0** versions archived · Latest: [`1.1.0`](https://github.com/flarchive/blomstra-database-queue/tree/archive/v1.1.0) · License: `MIT` · Flarum: `^1.0.0`
+**6** versions archived · Latest: [`1.1.0`](https://github.com/flarchive/blomstra-database-queue/tree/archive/v1.1.0) · License: `MIT` · Flarum: `^1.0.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `0.1-beta.1` | 2021-07-13 | `^1.0.0` | [Browse](https://github.com/flarchive/blomstra-database-queue/tree/archive/v0.1-beta.1) |
+| `0.1-beta.2` | 2021-12-03 | `^1.0.0` | [Browse](https://github.com/flarchive/blomstra-database-queue/tree/archive/v0.1-beta.2) |
+| `1.0.0` | 2023-11-28 | `^1.0.0` | [Browse](https://github.com/flarchive/blomstra-database-queue/tree/archive/v1.0.0) |
+| `1.0.1` | 2023-11-28 | `^1.0.0` | [Browse](https://github.com/flarchive/blomstra-database-queue/tree/archive/v1.0.1) |
+| `1.0.2` | 2023-11-28 | `^1.0.0` | [Browse](https://github.com/flarchive/blomstra-database-queue/tree/archive/v1.0.2) |
+| `1.1.0` | 2024-01-05 | `^1.0.0` | [Browse](https://github.com/flarchive/blomstra-database-queue/tree/archive/v1.1.0) |
 
 Catalog entry: [packages/blomstra-database-queue.json](https://github.com/flarchive/archive-index/blob/main/packages/blomstra-database-queue.json)
 
